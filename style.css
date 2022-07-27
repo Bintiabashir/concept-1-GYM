@@ -1,0 +1,350 @@
+* {
+    margin: 0;
+}
+
+/* menu-styles */
+
+.menu {
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+
+}
+
+.company-logo {
+    font-size: 40px;
+
+}
+
+.fitness {
+    margin-block-start: 0;
+
+}
+
+.menu-items {
+    display: flex;
+    margin-right: 150px;
+
+}
+
+
+
+.menu-items li {
+    list-style: none;
+    padding: 10px;
+    margin: 5px;
+    font-size: 19px;
+}
+
+.menu-items li:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+/* top-banner styles */
+
+.banner-container {
+    display: flex;
+    /* justify-content: space-around; */
+    background-color: black;
+    color: white;
+    height: 100vh;
+    width: 100%;
+
+    align-items: center;
+}
+
+.banner-details {
+    margin-left: 50px;
+}
+
+.banner-text {
+    color: red;
+    font-size: 22px;
+    font-weight: 700;
+    margin: 15px;
+}
+
+.title {
+    font-weight: bolder;
+    font-size: 70px;
+    margin: 10px 0;
+}
+
+.text {
+    font-size: 25px;
+    color: lightgrey;
+    font-weight: bold;
+}
+
+.button {
+    padding: 18px 50px;
+    margin: 25px 0;
+    color: white;
+    background-color: red;
+    font-size: 17px;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: blue;
+}
+
+.banner-container img {
+    width: 100%
+}
+
+/* take a look section style */
+.take-a-look {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.title-2 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    margin-bottom: 50px;
+}
+
+.look-container {
+    display: flex;
+    padding: 2%;
+}
+
+.take-a-look-blog {
+    width: 550px;
+    height: 220px;
+    border: 1px solid gray;
+    text-align: center;
+    margin: 1%;
+    padding: 1%;
+    box-shadow: 2px 2px 5px gray;
+    border-radius: 5px;
+
+
+}
+
+.take-a-look-blog:hover {
+    border: 1px solid red;
+    margin-top: -20px;
+
+
+
+
+    transition: 0.8s;
+
+}
+
+.take-a-look-blog img {
+    width: 25%;
+}
+
+.blog-text {
+    text-align: justify;
+    padding-left: 10px;
+}
+
+/* about-us styles */
+.about-us {
+    background-color: rgba(8, 8, 8, 0.932);
+    color: white;
+    height: 100vh;
+    padding-bottom: 35px;
+    margin-bottom: 70px;
+}
+
+
+
+.about-container {
+    display: flex;
+
+
+}
+
+
+
+.left-side {
+    width: 700px;
+    margin-top: 50px;
+    padding: 10px;
+
+
+}
+
+.about-image {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.about-image img {
+    width: 50%;
+    height: 60%;
+    transform: skewY(-15deg);
+    margin: 10px;
+}
+
+.second-img {
+    padding-left: 25px;
+}
+
+.right-side {
+    width: 700px;
+
+}
+
+.about-details {
+    padding: 10px;
+}
+
+.title-3 {
+    font-size: 2.6em;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.about-details ul {
+    padding: 20px 25px 0px;
+}
+
+.about-details li {
+    font-size: 1.1em;
+    padding-top: 7px;
+}
+
+.workout-section {
+    height: 200px;
+    width: 700px;
+    margin: 0 auto;
+    border-radius: 20px;
+
+    background-image: url(./images/shape/Group_33094_1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.workout-title {
+    font-size: 1.35em;
+    color: white;
+}
+
+.lets-chat {
+    padding: 11px 24px;
+    margin: 25px 0;
+    font-size: 17px;
+    border-radius: 7px;
+    border: 1px solid white;
+
+}
+
+/* our services styles */
+
+.our-services-container {
+    margin: 90px 0 170px;
+
+}
+
+.our-services-card {
+    display: flex;
+
+}
+
+.card-1 {
+    margin: 20px 20px;
+    height: 410px;
+    width: 290px;
+    box-shadow: 8px 10px 16px rgb(77, 76, 76);
+    border-radius: 5px;
+}
+
+
+
+.service-image img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.card-text {
+    padding: 15px;
+}
+
+.card-text h3 {
+    padding-bottom: 10px;
+    color: red;
+}
+
+.card-text h5 {
+    padding: 5px 0 20px;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-footer h1 {
+    font-size: 1.7em;
+}
+
+.card-footer p {
+    color: red;
+    font-size: 1.2em;
+}
+
+.batch-img {
+    width: 70px;
+    position: absolute;
+}
+
+.batch {
+    position: relative;
+    top: -30px;
+    left: 250px;
+}
+
+.foot-hr {
+    width: 80%;
+    margin: auto;
+}
+
+.anchor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.anchor a {
+    color: black;
+    text-decoration: none;
+    padding-left: 20px;
+    font-weight: 550;
+
+}
+
+.anchor a:hover {
+    color: red;
+    text-decoration-line: underline;
+}
+
+span a {
+    color: red;
+    text-decoration: none;
+}
+
+span a:hover {
+    text-decoration-line: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 40px;
+    margin-bottom: 70px;
+}
